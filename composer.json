@@ -1,0 +1,20 @@
+{
+    "name": "msoroka/pimcore-req-check",
+    "description": "Check pimcore requirements without installing it",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateusz Soroka",
+            "email": "xmsoroka@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
