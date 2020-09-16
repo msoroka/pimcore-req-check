@@ -21,7 +21,7 @@ class Extensions
             'name'    => 'memory_limit (in php.ini, minimum 512MB)',
             'link'    => 'http://www.php.net/memory_limit',
             'state'   => $memoryLimit,
-            'message' => $memoryLimitMessage,
+            'message' => 'Jeśli mniej niż 512, aplikacja uruchomi się, ale nie będzie działać prawidłowo.',
         ]);
 
         // pdo_mysql
